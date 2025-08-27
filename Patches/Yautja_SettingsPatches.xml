@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="YautjaSettings.PatchOperationSetting">
+		<setting>disableHarClothingRestrictions</setting>
+		<active Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="ABYautja_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+	
+	<Operation Class="YautjaSettings.PatchOperationSetting">
+		<setting>friendlyYautjaFactions</setting>
+		<active Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/FactionDef[@Name="ABYautjaFactionBase"]/requiredMemes</xpath>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+	
+	<Operation Class="YautjaSettings.PatchOperationSetting">
+		<setting>gauntletExplosionToggle</setting>
+		<active Class="PatchOperationSequence">
+			<operations>
+			<!--Tech-->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="TechDualWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="TechLongWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="TechSingleWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+			<!--Cloaking-->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="Cloaking_TechDualWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="Cloaking_TechLongWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/HediffDef[defName="Cloaking_TechSingleWristbladeGauntlet"]/comps/li[2]</xpath>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+</Patch>

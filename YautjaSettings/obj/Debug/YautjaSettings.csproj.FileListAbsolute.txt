@@ -1,0 +1,6 @@
+C:\Users\Allis\Pictures\Rimmers\Mod Sources\YautjaSettings\obj\Debug\YautjaSettings.csproj.AssemblyReference.cache
+C:\Users\Allis\Pictures\Rimmers\Mod Sources\YautjaSettings\obj\Debug\YautjaSettings.csproj.CoreCompileInputs.cache
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\[AB] Xenotype; Yautja\1.6\Assemblies\YautjaSettings.dll
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\[AB] Xenotype; Yautja\1.6\Assemblies\YautjaSettings.pdb
+C:\Users\Allis\Pictures\Rimmers\Mod Sources\YautjaSettings\obj\Debug\YautjaSettings.dll
+C:\Users\Allis\Pictures\Rimmers\Mod Sources\YautjaSettings\obj\Debug\YautjaSettings.pdb
